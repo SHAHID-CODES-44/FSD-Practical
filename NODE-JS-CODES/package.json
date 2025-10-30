@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "color": "^5.0.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "cron": "^4.3.3",
+    "express": "^5.1.0",
+    "node-cron": "^4.2.1",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "week9",
+  "version": "1.0.0",
+  "description": "Week 9 - Sequelize examples (ModelQueryingFinders / RawQueries / ValidationConstraints)",
+  "main": "db.js",
+  "scripts": {
+    "install-all": "npm install express sequelize dotenv mysql2",
+    "start:model": "node ModelQueryingFinders/index.js",
+    "start:raw": "node RawQueries/index.js",
+    "start:val": "node ValidationConstraints/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "express": "^4.21.2",
+    "mysql2": "^3.3.0",
+    "sequelize": "^6.32.1"
+  }
+}

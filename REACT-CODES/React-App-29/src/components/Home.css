@@ -1,0 +1,33 @@
+/* Home.css */
+.home-container {
+    padding: 20px;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.nav-button {
+    padding: 10px 15px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.nav-button:hover {
+    background-color: #e0e0e0;
+}
+
+.greetings {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    max-width: 300px;
+}
