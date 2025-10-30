@@ -1,22 +1,24 @@
-# Ignore node modules
+cat > .gitignore << 'EOF'
+# Node
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Ignore build files
+# builds
 dist/
 build/
 
-# Ignore environment and database configs
+# env
 .env
-*.sql
-*.db
 
-# Ignore OS files
+# OS & editors
 .DS_Store
 Thumbs.db
-
-# Ignore logs
-*.log
-
-# Ignore IDE settings
 .vscode/
 .idea/
+
+# logs and misc
+*.log
+coverage/
+EOF
