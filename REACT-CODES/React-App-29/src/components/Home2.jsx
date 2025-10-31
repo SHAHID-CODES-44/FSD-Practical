@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import "./Login.css";
+import "./Home2.css";
 
 export default function Home() {
   const [users, setUsers] = useState([]);
@@ -87,7 +88,9 @@ export default function Home() {
       <div className="summary">
         <p>Total users: {users.length}</p>
       </div>
-
+      <div className="summary">
+        <a href="/Signup"><button>Add a User</button></a>
+      </div>
       {loading && <p>Loading users...</p>}
       {message && <div className="message error">{message}</div>}
 
